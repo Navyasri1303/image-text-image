@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Image and Image to Text</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <center><h1>Text to Image and Image to Text</h1></center> 
+
+    <div class="container">
+        <div class="section">
+            <h2>Text to Image</h2>
+            <label for="input-text">Create an Image from Text prompt:</label>
+            <input type="text" id="input-text">
+            <button id="btn-text-to-image">Generate</button>
+            <img id="generated-image" src="" alt="Generated Image">
+        </div>
+
+        <div class="section">
+            <h2>Image to Text</h2>
+            <label for="input-image">Upload an Image:</label>
+            <input type="file" id="input-image">
+            <button id="btn-image-to-text">Generate Text</button>
+            <p id="generated-text"></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
